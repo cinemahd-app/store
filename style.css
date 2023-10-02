@@ -1,0 +1,91 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200;300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+  background: rgba(0,0,0,0.071);
+}
+
+#topbar {
+  background: rgba(1, 7, 26, 0.823);
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  padding: 13px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+  border-radius: 2px;
+}
+
+.main-article1 {
+  background: #ddd;
+  color: rgba(1, 7, 26, 0.823);
+  padding: 10px;
+  font-family: 'Oswald', sans-serif;
+  border: 0.5px solid grey;
+}
+
+.title {
+  color: green;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.falses {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  font-family: 'Oswald', sans-serif;
+  color: gray;
+  background: darkred;
+}
+.google{
+ background: darkred;
+  padding: 20px;
+  border-radius: 1px;
+  font-family: 'Oswald',sans-serif;
+}
+.usefull{
+  background: #ddd;
+  padding: 10px;
+  color: gray;
+  font-family: 'Montserrat', sans-serif;
+}
+#download{
+  text-align: center;
+  font-family: 'Oswald',sans-serif;
+  text-transform: uppercase;
+  color: darkgreen;
+  background: #ddd;
+  padding: 10px;
+  font-weight: bold;
+}
+#foot{
+  background: rgba(1, 7, 26, 0.823);
+  color: white;
+  text-align: center;
+  padding: 30px;
+  display: block;
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 3px;
+  }
+ .macc{
+   text-decoration: none;
+   background: rgba(1, 7, 26, 0.823);
+   padding: 15px;
+   border-radius: 10px;
+   color: white;
+   text-align: center;
+   display: block;
+    }
+.macc:hover{
+  color: white;
+  background: darkred;
+}
+.youtu{
+  background: #ddd;
+  color: gray;
+  padding: 15px;
+}
